@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Portofolio Saya</title>
+  <!-- Tambahkan link ke file CSS Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <!-- Tambahkan link ke file CSS tambahan untuk mengatur tampilan -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Riyan Adi Saputro</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tentang">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navigasi -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-dark text-white text-center">
+    <div class="container">
+      <h1 class="display-3-bold">Selamat Datang di Portofolio Saya</h1>
+      <p class="lead">Ini adalah tempat dimana Anda dapat melihat karya-karya saya yang telah saya kerjakan selama ini.</p>
+    </div>
+  </div>
+  <!-- Akh -->
+  <!-- Tentang -->
+  <section id="tentang" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2>Tentang Saya</h2>
+          <p style="text-align: justify;">Halo, nama saya Riyan Adi Saputro. Saya memiliki minat yang kuat terhadap Artificial Intelligence, khususnya di bidang computer vision. Saya memiliki pengalaman dalam menggunakan tools seperti Pytorch dan Tensorflow. Saat ini, saya sedang kuliah di Universitas Ahmad Dahlan dan pernah mengikuti program studi independen di Ahmad Zacky Foundation Track AI. Selain memiliki minat yang tinggi terhadap AI, saya juga merupakan orang yang sangat optimis dan memiliki rasa ingin tahu yang tinggi. Saya percaya bahwa dengan minat dan keinginan yang tinggi, serta dengan usaha yang keras, kita dapat mencapai apapun yang kita inginkan.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="img\Mask group.png" alt="Foto Profil" class="img-fluid" id="profile">
+          <div class="profile-decoration">
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Tentang -->
+
+  <!-- Portofolio -->
+  <section id="portofolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Portofolio Saya</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/project1.jpg" alt="Gambar Proyek 1" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Klasifikasi Gambar Fashion</h4>
+              <p class="text-justify">Saya bersama tim saya telah mengembangkan suatu model klasifikasi yang dapat mengklasifikasikan gambar-gambar fashion dengan menggunakan pretrained model. Kami telah mengimplementasikannya pada sebuah website untuk memudahkan pengguna dalam mencari referensi fashion yang sesuai dengan selera mereka.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/project2.jpg" alt="Gambar Proyek 2" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Proyek 2</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <img src="img/project3.jpg" alt="Gambar Proyek 3" class="card-img-top">
+            <div class="card-body">
+              <h4 class="card-title">Proyek 3</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Akhir Portofolio -->
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Hubungi Saya</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama</label>
+              <input type="text" class="form-control" id="nama">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <ul class="list-unstyled">
+            <li>
+              <strong>Alamat:</strong>
+              <p>Tanjung RT.12, Celep, Kedawung, Sragen</p>
+              <p>Sorosutan, Yogyakarta</p>
+            </li>
+            <li>
+              <strong>Telepon:</strong>
+              <p>+6289524506009</p>
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <p>Riyanadi083@email.com</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Kontak -->
+
+  <!-- Footer -->
+  <footer class="bg-dark py-4 mt-5 text-white text-center">
+    <p>Copyright &copy; 2022 Riyan Adi</p>
+  </footer>
+  <!-- Akhir Footer -->
+  <!-- <script>
+    // Ambil elemen gambar profil
+    const profile = document.getElementById('profile');
+  
+    // Tambahkan event mouseenter pada elemen gambar profil
+    profile.addEventListener('mouseenter', function() {
+      // Atur transformasi gambar profil saat cursor mendekat
+      profile.style.transform = 'translateX(-10px)';
+    });
+  
+    // Tambahkan event mouseleave pada elemen gambar profil
+    profile.addEventListener('mouseleave', function() {
+      // Atur transformasi gambar profil saat cursor menjauh
+      profile.style.transform = 'translateX(0)';
+    });
+  </script> -->
+  <!-- Tambahkan script JavaScript
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  -->
+  <!-- Tambahkan script JavaScript tambahan untuk animasi -->
+  <script src="script.js"></script>
+</body>
+</html>
